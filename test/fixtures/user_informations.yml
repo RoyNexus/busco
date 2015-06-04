@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  family_members: 1
+  family_description: MyString
+  pets: false
+  pets_description: MyString
+  family_workers: 1
+  workers_description: MyString
+  principal_phone: MyString
+  secondary_phone: MyString
+  secondary_email: MyString
+  user_id: 1
+
+two:
+  name: MyString
+  family_members: 1
+  family_description: MyString
+  pets: false
+  pets_description: MyString
+  family_workers: 1
+  workers_description: MyString
+  principal_phone: MyString
+  secondary_phone: MyString
+  secondary_email: MyString
+  user_id: 1

@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @user_information.name %>
+</p>
+
+<p>
+  <strong>Family members:</strong>
+  <%= @user_information.family_members %>
+</p>
+
+<p>
+  <strong>Family description:</strong>
+  <%= @user_information.family_description %>
+</p>
+
+<p>
+  <strong>Pets:</strong>
+  <%= @user_information.pets %>
+</p>
+
+<p>
+  <strong>Pets description:</strong>
+  <%= @user_information.pets_description %>
+</p>
+
+<p>
+  <strong>Family workers:</strong>
+  <%= @user_information.family_workers %>
+</p>
+
+<p>
+  <strong>Workers description:</strong>
+  <%= @user_information.workers_description %>
+</p>
+
+<p>
+  <strong>Principal phone:</strong>
+  <%= @user_information.principal_phone %>
+</p>
+
+<p>
+  <strong>Secondary phone:</strong>
+  <%= @user_information.secondary_phone %>
+</p>
+
+<p>
+  <strong>Secondary email:</strong>
+  <%= @user_information.secondary_email %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @user_information.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_user_information_path(@user_information) %> |
+<%= link_to 'Back', user_informations_path %>
